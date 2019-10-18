@@ -280,11 +280,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in shoppingbasket">
+  <component name="RunManager" selected="JUnit.BogofTest.canBogof">
     <configuration name="All in shoppingbasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shoppingbasket" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BogofTest.canBogof" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shoppingbasket" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BogofTest" />
+      <option name="METHOD_NAME" value="canBogof" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,23 +329,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingBasketTest.canRemoveAllItemsFromShoppingBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shoppingbasket" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
-      <option name="METHOD_NAME" value="canRemoveAllItemsFromShoppingBasket" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BogofTest.canBogof" />
         <item itemvalue="JUnit.All in shoppingbasket" />
         <item itemvalue="JUnit.PercentageOffTest.canUsePercentageOff" />
         <item itemvalue="JUnit.LoyaltyCardTest.canApplyDiscountToShoppingBasket" />
         <item itemvalue="JUnit.ShoppingBasketTest.canGetTotalValue" />
-        <item itemvalue="JUnit.ShoppingBasketTest.canRemoveAllItemsFromShoppingBasket" />
       </list>
     </recent_temporary>
   </component>

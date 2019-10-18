@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.Test;
 import shoppingbasket.ShoppingBasket;
 import shoppingbasket.discounts.Bogof;
 import shoppingbasket.items.Carrot;
@@ -21,14 +22,13 @@ public class BogofTest {
         onion = new Onion("onion", 1);
     }
 
-
+    @Test
     public void canBogof(){
         shoppingBasket.addItem(carrot);
         shoppingBasket.addItem(carrot);
-        shoppingBasket.addItem(carrot);
         shoppingBasket.addItem(onion);
         shoppingBasket.addItem(onion);
-        bogof.discount(shoppingBasket);
-        assertEquals(4, shoppingBasket.getTotalValue(), 0.01);
+
+        assertEquals(2, bogof.discount(shoppingBasket), 0.01);
     }
 }
