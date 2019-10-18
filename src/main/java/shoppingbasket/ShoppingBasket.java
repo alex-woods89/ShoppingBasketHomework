@@ -2,6 +2,7 @@ package shoppingbasket;
 
 import shoppingbasket.items.Item;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ShoppingBasket {
@@ -37,5 +38,17 @@ public class ShoppingBasket {
           total += item.getValue();
         }
         return total;
+    }
+
+    public ArrayList<Item> createUniqueArray() {
+        ArrayList<Item> uniqueArray = new ArrayList<Item>();
+        for (Item item : items) {
+            if (!uniqueArray.contains(item)) {
+                uniqueArray.add(item);
+
+            }
+        }
+        return uniqueArray;
+
     }
 }
