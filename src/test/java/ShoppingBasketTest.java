@@ -44,4 +44,12 @@ public class ShoppingBasketTest {
         assertEquals(0, shoppingBasket.getItemsCount());
 
     }
+
+    @Test
+    public void canGetTotalValue() {
+        shoppingBasket.addItem(carrot);
+        shoppingBasket.addItem(carrot);
+        assertEquals(0.6, shoppingBasket.getTotalValue(), 0.01);
+    }
+
 }

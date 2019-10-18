@@ -30,4 +30,12 @@ public class ShoppingBasket {
     public void removeAllItems() {
         items.clear();
     }
+
+    public double getTotalValue() {
+        double total = 0;
+        for(Item item : items){
+          total += item.getValue();
+        }
+        return total;
+    }
 }
