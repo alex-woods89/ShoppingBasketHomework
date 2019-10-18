@@ -28,7 +28,6 @@ public class BogofTest {
         shoppingBasket.addItem(carrot);
         shoppingBasket.addItem(onion);
         shoppingBasket.addItem(onion);
-
         assertEquals(2, bogof.discount(shoppingBasket), 0.01);
     }
 }

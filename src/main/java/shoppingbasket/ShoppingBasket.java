@@ -48,7 +48,6 @@ public class ShoppingBasket {
 
             }
         }
-        return uniqueArray;
-
+        return items = uniqueArray;
     }
 }
