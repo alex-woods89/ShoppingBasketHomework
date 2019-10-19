@@ -7,9 +7,11 @@ import java.util.ArrayList;
 
 public class ShoppingBasket {
     ArrayList<Item> items;
+    ArrayList<Item> discountedItems;
 
     public ShoppingBasket(){
         this.items = new ArrayList<Item>();
+        this.discountedItems = new ArrayList<Item>();
     }
 
     public ArrayList<Item> getItems() {
@@ -49,5 +51,9 @@ public class ShoppingBasket {
             }
         }
         return items = uniqueArray;
+    }
+
+    public ArrayList<Item> getDiscountedItems(){
+        return this.discountedItems;
     }
 }
