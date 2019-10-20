@@ -56,4 +56,12 @@ public class ShoppingBasket {
     public ArrayList<Item> getDiscountedItems(){
         return this.discountedItems;
     }
+
+    public double getTotalAfterDiscount() {
+        double total = 0;
+        for(Item item : discountedItems){
+            total += item.getValue();
+        }
+        return total;
+    }
 }
